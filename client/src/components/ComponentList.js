@@ -70,7 +70,8 @@ export default function ComponentList({selectedMetadataType,isShowChildren}) {
 
   const handleSelectAll = ()=>{
     selectedMetadataType.children=selectedMetadataType.children.map(child=>{
-      child.isSelected=true;//update the child state 
+	    if(child.text.toUpperCase().includes(filterKey.toUpperCase()))
+     		 child.isSelected=true;//update the child state 
       return child;
     });
 
