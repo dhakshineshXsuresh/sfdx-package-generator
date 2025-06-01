@@ -1,3 +1,6 @@
+# Dhakshinesh Upgrade in Select All functionality for components
+Now select all in component list will be filtered by the search.
+
 # Salesforce Package.xml Generator Extension for VS Code
 
 This extension provides a User Interface to choose metadata components for Package.xml file for development against sandboxes or DE orgs (Org Development Model with VS Code). This is similar to Eclipse Force.com IDE Add/Remove Metadata Components option.

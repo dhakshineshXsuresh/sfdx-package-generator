@@ -1,10 +1,10 @@
 {
 	"name": "sfdx-package-xml-generator",
 	"displayName": "Salesforce Package.xml Generator Extension for VS Code",
-	"description": "Extension for generating Package.xml on the Salesforce Platform",
+	"description": "Extension for generating Package.xml on the Salesforce Platform by Dhakshinesh(one upgrade)",
 	"version": "2.1.0",
-	"publisher": "VignaeshRamA",
-	"repository": "https://github.com/vignaesh01/sfdx-package-generator",
+	"publisher": "Dhakshinesh",
+	"repository": "https://github.com/dhakshineshXsuresh/sfdx-package-generator",
 	"icon": "icon.png",
 	"keywords": [
 		"sfdx",
