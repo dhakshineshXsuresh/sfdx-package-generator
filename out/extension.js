@@ -42,7 +42,7 @@ var fs = require("fs");
 var xml2js = require('xml2js');
 let DEFAULT_API_VERSION = '';
 function activate(context) {
-    context.subscriptions.push(vscode.commands.registerCommand('sfdxPackageGen.chooseMetadata', async () => {
+    context.subscriptions.push(vscode.commands.registerCommand('sfdxPackageGen.chooseMetadataDK', async () => {
         // Dynamically import clipboardy
         const module = await import('clipboardy');
         clipboardy = module.default || module; // Handle both default and named exports

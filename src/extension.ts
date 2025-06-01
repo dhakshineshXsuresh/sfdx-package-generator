@@ -9,7 +9,7 @@ let DEFAULT_API_VERSION='';
 
 export function activate(context: vscode.ExtensionContext) {
 	context.subscriptions.push(
-		vscode.commands.registerCommand('sfdxPackageGen.chooseMetadata',async () => {
+		vscode.commands.registerCommand('sfdxPackageGen.chooseMetadataDK',async () => {
 			// Dynamically import clipboardy
 			const module = await import('clipboardy');
         	clipboardy = module.default || module; // Handle both default and named exports
