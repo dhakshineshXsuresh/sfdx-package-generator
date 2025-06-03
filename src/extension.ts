@@ -6,8 +6,8 @@ let clipboardy: any;
 var fs = require("fs");
 var xml2js = require('xml2js');
 let DEFAULT_API_VERSION='';
-//Hi there Just samplechange
-
+//Hi there Just samplechange/*
+//asdadsad
 export function activate(context: vscode.ExtensionContext) {
 	context.subscriptions.push(
 		vscode.commands.registerCommand('sfdxPackageGen.chooseMetadataDK',async () => {
@@ -38,7 +38,7 @@ export function activate(context: vscode.ExtensionContext) {
 			console.log('stdout: ' + dataArg);
 			bufferOutData+=dataArg;
 		});
-
+//????
 		/*foo.stderr.on("data",(data : any)=> {
 			console.log('stderr: ' + data);
 			//vscode.window.showErrorMessage(data);
