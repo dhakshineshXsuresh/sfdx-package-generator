@@ -6,6 +6,7 @@ let clipboardy: any;
 var fs = require("fs");
 var xml2js = require('xml2js');
 let DEFAULT_API_VERSION='';
+//Hi there Just samplechange
 
 export function activate(context: vscode.ExtensionContext) {
 	context.subscriptions.push(
